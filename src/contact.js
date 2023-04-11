@@ -9,7 +9,7 @@ function renderContact() {
     main.appendChild(contactCont);
 
     let lorem = createDiv;
-    lorem.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit";
+    lorem.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elitç";
     getCont.appendChild(lorem);
 
 }
