@@ -1,0 +1,66 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    grid-column: 50px 1fr;
+    background: url("/src/img/titanMouth.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage>button {
+    width: 100px;
+}
+
+.tabNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homePgCont {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuPgCont {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#itemCont {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#contactCont {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
